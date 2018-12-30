@@ -1,0 +1,5 @@
+The "standard" output stream. This stream is already open and ready to accept output data. 
+Typically this stream corresponds to display output or another output destination specified by the host environment or user.
+For simple stand-alone Java applications, a typical way to write a line of output data is:
+
+     System.out.println(data)
